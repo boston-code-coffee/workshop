@@ -2,7 +2,7 @@
 
 principle: stacks
 
-Write a function called `isBalanced() which takes a string and returns a boolean.
+Write a function called `isBalanced()` which takes a string and returns a boolean.
 The input string is a math expression. An expression  is string contains whitespace,
 character symbols, integer numbers, the operators `+` `-` `*` `/` and the
 nesting operators `()` `[]` `{}`.

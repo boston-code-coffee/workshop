@@ -1,5 +1,5 @@
 
-// For more details, see: [reverse_sentence.md](../../problems/stacks/reverse_sentence.md)
+// For more details, see: [reverse_sentence.md](https://github.com/boston-code-coffee/workshop/blob/main/lessons/problems/stacks/reverse_sentence.md)
 function reverse(sentence: string): string {
   let fwd: string[] = sentence.split(' ');
   let rev : string[] = [];

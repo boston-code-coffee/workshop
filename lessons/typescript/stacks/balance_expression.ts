@@ -1,3 +1,5 @@
+
+// For more details, see: [balanced_expression.md](https://github.com/boston-code-coffee/workshop/blob/main/lessons/problems/stacks/balance_expression.md)
 function isBalanced(sentence: string): boolean {
     const heads: Record<string, string> = {
         '(' : ')',
