@@ -30,4 +30,4 @@ operators `(` `[` `{` has a matching tail operator `)` `]` `}`.
 |`{(x[1] + x[2]) * (y[3]-y[4]) }`|true|
 |`(x]`|false|
 |`)x+1(`|false|
-|`((x+1)+y)`|false|
+|`((x+1+y)`|false|
