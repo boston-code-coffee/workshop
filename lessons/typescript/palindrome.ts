@@ -2,13 +2,12 @@
 
 // Note: please restart the page if syntax highlighting works bad.
 function isPalindrome2(word: string): boolean {
- const cleanedWord = word.replace(/[^a-zA-Z]/g, '').toLowerCase();
- return cleanedWord === cleanedWord.split('').reverse().join('');
+ return word === word.split('').reverse().join('');
 }
 
-function longest2(doc: string): string {
- const words = doc.split(/\b/);
- const palindromes = words.filter(word => isPalindrome(word));
+
+function longest2(words: string[]): string {
+ const palindromes = words.filter(word => isPalindrome2(word));
  return palindromes.reduce((longest, current) => current.length > longest.length ? current : longest, '');
 }
 
