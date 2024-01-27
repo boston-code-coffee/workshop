@@ -1,6 +1,6 @@
 # Problem #3 - Palindrome.
 
-A palindrome word is sequence of characters that reads the same backward and forward. 
+A palindrome word is a sequence of characters that reads the same backward and forward. 
 For example:
 
 * wow
@@ -11,8 +11,8 @@ For example:
 
 ##  Problem
 
-Write a function named longest, that takes an input of type string array named words. 
-Return the longest palindrome word or the empty string if none found.
+Write a function named longest that takes an input of type string array named words. 
+Return the longest palindrome word or the empty string if none is found.
 
 
 ##  Clarifying questions
