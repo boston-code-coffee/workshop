@@ -23,6 +23,7 @@ Ask your clarifying Assumptions.
 
 ## Assumptions
 
+What to return if string not found
 Each array is a collection of strings.    
 Each string is an well formed ascii URL eg "http://www.yahoo.com/main/weather.htm"  
 **logUrls** does not contain duplicates.  
